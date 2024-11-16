@@ -1,4 +1,4 @@
-# 군집사 (Military Life Assistant)
+# 군집사 (Military Maid)
 
 <div align="center">
   <img src="public/favicon.svg" alt="군집사 로고" width="120" height="120" />
@@ -183,9 +183,9 @@ npm run build
 <br/>
 
 <div align="center">
-  <img src="public/logo.svg" alt="군집사 로고" width="60" height="60" />
+  <img src="public/favicon.svg" alt="군집사 로고" width="60" height="60" />
   <br/>
-  <sub>Made with ❤️ by the military community</sub>
+  <sub>Made with ❤️ by sioaeko</sub>
   <br/>
   <sub>© 2024 군집사. All rights reserved.</sub>
 </div>
