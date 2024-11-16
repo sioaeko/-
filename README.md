@@ -32,7 +32,7 @@
 
   <br/>
   
-  <img src="https://user-images.githubusercontent.com/your-username/military-assistant/main/preview.png" alt="군집사 프리뷰" width="600" />
+  <img src="https://user-images.githubusercontent.com/sioaeko/military_maid/main/public/preview.png" alt="군집사 프리뷰" width="600" />
 </div>
 
 <br/>
