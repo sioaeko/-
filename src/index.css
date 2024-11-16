@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply antialiased text-slate-100;
+    touch-action: manipulation;
+  }
+
+  /* Native-like button active state */
+  button:active {
+    @apply transform scale-95 transition-transform duration-100;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-700/50 rounded-full hover:bg-slate-600/50;
+  }
+
+  /* Hide scrollbar for tab navigation */
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+  }
+
+  /* iOS-style safe area padding */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  /* Smooth tab transitions */
+  .tab-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  /* Native-like tap feedback */
+  @media (hover: none) {
+    .tap-highlight {
+      @apply active:bg-slate-700/30 transition-colors duration-100;
+    }
+  }
+
+  /* iOS-style blur effects */
+  .backdrop-blur-ios {
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+
+  /* Mobile date picker styling */
+  @supports (-webkit-touch-callout: none) {
+    input[type="date"] {
+      position: relative;
+      display: block;
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: auto;
+      height: auto;
+      color: transparent;
+      background: transparent;
+    }
+  }
+}
+
+/* Disable pull-to-refresh on mobile */
+body {
+  overscroll-behavior-y: none;
+}
