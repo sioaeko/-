@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 배경 -->
-  <rect width="32" height="32" rx="8" fill="#1E293B"/>
-  
-  <!-- 방패 -->
-  <path d="M16 6L24 10V14C24 19.04 21.04 23.15 16 25C10.96 23.15 8 19.04 8 14V10L16 6Z" 
-    stroke="#3B82F6" 
-    stroke-width="1.5" 
-    stroke-linecap="round" 
-    stroke-linejoin="round"
-    fill="#1D4ED8"
-    fill-opacity="0.1"
-  />
-  
-  <!-- 별 -->
-  <path d="M16 11L17.5 14.5L21 15L18.5 17.5L19 21L16 19L13 21L13.5 17.5L11 15L14.5 14.5L16 11Z"
-    fill="#60A5FA"
-    stroke="#3B82F6"
-    stroke-width="1"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradientLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- 부드러운 라운드 방패 모양 -->
+  <path d="M60 10L20 28V55C20 82.6141 37.9509 107.284 60 112C82.0491 107.284 100 82.6141 100 55V28L60 10Z" 
+        fill="url(#shieldGradientLogo)"
+        stroke="#1E40AF"
+        stroke-width="4"
+        stroke-linejoin="round" />
+  <!-- 파란색 별 -->
+  <path d="M60 35L66.7846 48.5836L81.2487 50.1803L70.6244 60.4164L73.5692 74.8197L60 67.9L46.4308 74.8197L49.3756 60.4164L38.7513 50.1803L53.2154 48.5836L60 35Z" 
+        fill="#93C5FD"
+        stroke="#60A5FA"
+        stroke-width="2"
+        stroke-linejoin="round" />
 </svg>
