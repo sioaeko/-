@@ -1,105 +1,125 @@
 # 군집사 (Military Life Assistant)
 
 <div align="center">
-  <img src="public/favicon.svg" alt="군집사 로고" width="120" height="120" />
+  <img src="public/logo.svg" alt="군집사 로고" width="120" height="120" />
   
-  <h1>군집사</h1>
-  <p><strong>군 생활 관리의 모든 것, 군집사와 함께</strong></p>
-
+  <h1>
+    <img src="public/logo.svg" alt="군집사" width="32" height="32" style="vertical-align: middle" />
+    군집사
+  </h1>
+  
   <p>
-    <a href="#주요-기능">주요 기능</a> •
-    <a href="#특징">특징</a> •
-    <a href="#시작하기">시작하기</a> •
-    <a href="#기술-스택">기술 스택</a>
+    <b>군 생활 관리의 모든 것, 이제 군집사와 함께하세요</b><br/>
+    <sub>복무 일정부터 급여 관리까지, 스마트한 군 생활의 시작</sub>
   </p>
 
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="버전" />
-  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="라이선스" />
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PR 환영" />
+  <br/>
+
+  <div>
+    <img src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge" alt="버전" />
+    <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="라이선스" />
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge" alt="PR 환영" />
+  </div>
+
+  <br/>
+
+  <p>
+    <a href="#-주요-기능">주요 기능</a> •
+    <a href="#-특징">특징</a> •
+    <a href="#-시작하기">시작하기</a> •
+    <a href="#-기술-스택">기술 스택</a>
+  </p>
+
+  <br/>
+  
+  <img src="https://user-images.githubusercontent.com/your-username/military-assistant/main/preview.png" alt="군집사 프리뷰" width="600" />
 </div>
 
-## 💡 소개
+<br/>
 
-**군집사**는 대한민국 군 장병과 사회복무요원들의 복무 생활을 더 스마트하게 관리할 수 있도록 도와주는 올인원 웹 서비스입니다. 전역일 계산부터 휴가 관리, 급여 정보, 부대 정보까지 - 군 생활에 필요한 모든 정보를 한 눈에 확인하세요.
+## 🎯 한눈에 보기
+
+> **군집사**는 대한민국 군 장병과 사회복무요원을 위한 올인원 복무 관리 플랫폼입니다. 
+> 복잡한 군 생활 정보를 쉽고 편리하게 확인하세요.
+
+### 이런 분들을 위해 만들었습니다
+
+- 📅 전역일이 언제인지 정확히 알고 싶은 현역 장병
+- 💰 매달 급여와 수당이 얼마나 오르는지 궁금한 병사
+- 🎖️ 다음 진급일과 호봉 상승일을 체크하고 싶은 용사
+- 🏢 복무할 부대 정보를 자세히 알고 싶은 입대 예정자
+- ⏰ 남은 복무 기간을 실시간으로 확인하고 싶은 모든 분
+
+<br/>
 
 ## ⭐ 주요 기능
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://lucide.dev/icons/calendar.svg" width="40" height="40" alt="복무현황" /><br />
-        <b>복무현황</b>
-      </td>
-      <td align="center">
-        <img src="https://lucide.dev/icons/medal.svg" width="40" height="40" alt="계급정보" /><br />
-        <b>계급정보</b>
-      </td>
-      <td align="center">
-        <img src="https://lucide.dev/icons/wallet.svg" width="40" height="40" alt="급여정보" /><br />
-        <b>급여정보</b>
-      </td>
-      <td align="center">
-        <img src="https://lucide.dev/icons/list-checks.svg" width="40" height="40" alt="훈련일정" /><br />
-        <b>훈련일정</b>
-      </td>
-      <td align="center">
-        <img src="https://lucide.dev/icons/building-2.svg" width="40" height="40" alt="부대정보" /><br />
-        <b>부대정보</b>
-      </td>
-    </tr>
-  </table>
-</div>
+<table>
+<tr>
+  <td>
+    <h3>📅 복무 현황</h3>
+    <ul>
+      <li>실시간 전역일 계산</li>
+      <li>남은 복무 기간 카운트다운</li>
+      <li>진행률 시각화</li>
+      <li>전 군종 지원</li>
+    </ul>
+  </td>
+  <td>
+    <h3>🎖️ 계급 정보</h3>
+    <ul>
+      <li>자동 계급/호봉 계산</li>
+      <li>진급일 안내</li>
+      <li>임무/조언 제공</li>
+      <li>실시간 업데이트</li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>
+    <h3>💰 급여 관리</h3>
+    <ul>
+      <li>계급별 급여 계산</li>
+      <li>수당 정보 제공</li>
+      <li>월별 급여 추이</li>
+      <li>실시간 반영</li>
+    </ul>
+  </td>
+  <td>
+    <h3>🏢 부대 정보</h3>
+    <ul>
+      <li>전군 부대 검색</li>
+      <li>상세 정보 제공</li>
+      <li>부대 마크 표시</li>
+      <li>위치/연혁 확인</li>
+    </ul>
+  </td>
+</tr>
+</table>
 
-### 📅 복무 현황
-- 입대일 기준 전역일 자동 계산
-- 남은 복무 기간 실시간 확인 (일/주/월 단위)
-- 복무 진행률 시각화
-- 육군/해군/공군/사회복무요원 지원
-
-### 🎖️ 계급 정보
-- 현재 계급 및 호봉 자동 계산
-- 다음 진급일 안내
-- 계급별 주요 임무와 조언 제공
-
-### 💰 급여 정보
-- 계급/호봉별 급여 자동 계산
-- 수당 정보 제공
-- 월별 급여 현황 확인
-
-### 📋 훈련 일정
-- 신병 교육 일정 안내
-- 주요 훈련 일정 제공
-- 훈련별 상세 정보 확인
-
-### 🏢 부대 정보
-- 전군 주요 부대 정보 검색
-- 부대별 상세 정보 제공 (위치, 연혁, 특성)
-- 부대 마크 및 특성 확인
+<br/>
 
 ## ✨ 특징
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="200">
-        <img src="https://lucide.dev/icons/smartphone.svg" width="30" height="30" /><br />
-        <b>모바일 최적화</b><br />
-        <small>네이티브 앱 수준의 UX</small>
-      </td>
-      <td align="center" width="200">
-        <img src="https://lucide.dev/icons/zap.svg" width="30" height="30" /><br />
-        <b>실시간 업데이트</b><br />
-        <small>즉각적인 정보 반영</small>
-      </td>
-      <td align="center" width="200">
-        <img src="https://lucide.dev/icons/layout-dashboard.svg" width="30" height="30" /><br />
-        <b>직관적인 UI</b><br />
-        <small>쉽고 편한 사용성</small>
-      </td>
-    </tr>
-  </table>
-</div>
+### 🌟 최적화된 사용자 경험
+
+- **반응형 디자인**: 모든 디바이스에서 완벽한 레이아웃
+- **네이티브 앱 수준**: 부드러운 애니메이션과 전환 효과
+- **오프라인 지원**: 데이터 없이도 기본 기능 사용 가능
+
+### ⚡ 실시간 업데이트
+
+- **자동 계산**: 복무 기간, 급여, 계급 자동 반영
+- **즉시 반영**: 정책 변경사항 실시간 업데이트
+- **정확한 정보**: 공식 데이터 기반 계산
+
+### 🎨 직관적인 인터페이스
+
+- **깔끔한 디자인**: 모던하고 세련된 UI
+- **쉬운 사용법**: 복잡한 매뉴얼 불필요
+- **시각적 표현**: 차트와 그래프로 한눈에 파악
+
+<br/>
 
 ## 🛠️ 기술 스택
 
@@ -109,6 +129,8 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
 </div>
+
+<br/>
 
 ## 🚀 시작하기
 
@@ -129,16 +151,22 @@ npm run dev
 npm run build
 ```
 
+<br/>
+
 ## 🌐 브라우저 지원
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Chrome-recommended-green.svg" alt="Chrome" />
-  <img src="https://img.shields.io/badge/Safari-supported-yellow.svg" alt="Safari" />
-  <img src="https://img.shields.io/badge/Firefox-supported-yellow.svg" alt="Firefox" />
-  <img src="https://img.shields.io/badge/Edge-supported-yellow.svg" alt="Edge" />
+  <img src="https://img.shields.io/badge/Chrome-recommended-green?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Chrome" />
+  <img src="https://img.shields.io/badge/Safari-supported-yellow?style=for-the-badge&logo=safari&logoColor=white" alt="Safari" />
+  <img src="https://img.shields.io/badge/Firefox-supported-yellow?style=for-the-badge&logo=firefox&logoColor=white" alt="Firefox" />
+  <img src="https://img.shields.io/badge/Edge-supported-yellow?style=for-the-badge&logo=microsoft-edge&logoColor=white" alt="Edge" />
 </div>
 
+<br/>
+
 ## 🤝 기여하기
+
+군집사는 오픈소스 프로젝트로, 여러분의 기여를 환영합니다!
 
 1. 이 저장소를 포크합니다
 2. 새로운 브랜치를 생성합니다 (`git checkout -b feature/amazing-feature`)
@@ -146,13 +174,18 @@ npm run build
 4. 브랜치에 푸시합니다 (`git push origin feature/amazing-feature`)
 5. Pull Request를 생성합니다
 
+<br/>
+
 ## 📝 라이선스
 
-MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+
+<br/>
 
 <div align="center">
-  <br />
-  <p>
-    <sub>Built with ❤️ by the military community</sub>
-  </p>
+  <img src="public/logo.svg" alt="군집사 로고" width="60" height="60" />
+  <br/>
+  <sub>Made with ❤️ by the military community</sub>
+  <br/>
+  <sub>© 2024 군집사. All rights reserved.</sub>
 </div>
