@@ -136,10 +136,10 @@
 
 ```bash
 # 프로젝트 클론
-git clone https://github.com/yourusername/military-assistant.git
+git clone https://github.com/sioaeko/military_maid.git
 
 # 디렉토리 이동
-cd military-assistant
+cd military-maid
 
 # 의존성 설치
 npm install
