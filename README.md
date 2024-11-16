@@ -1,10 +1,10 @@
 # 군집사 (Military Life Assistant)
 
 <div align="center">
-  <img src="public/logo.svg" alt="군집사 로고" width="120" height="120" />
+  <img src="public/favicon.svg" alt="군집사 로고" width="120" height="120" />
   
   <h1>
-    <img src="public/logo.svg" alt="군집사" width="32" height="32" style="vertical-align: middle" />
+    <img src="public/favicon.svg" alt="군집사" width="32" height="32" style="vertical-align: middle" />
     군집사
   </h1>
   
