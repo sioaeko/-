@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="120" height="120" rx="24" fill="#1E293B"/>
-  <path d="M60 30L90 45V60C90 75.16 80.15 88.58 60 95C39.85 88.58 30 75.16 30 60V45L60 30Z" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M60 45L75 52.5V67.5C75 75.48 69.2 82.62 60 85.5C50.8 82.62 45 75.48 45 67.5V52.5L60 45Z" fill="#60A5FA" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M60 60L65 62.5V67.5C65 70.28 63.18 72.72 60 74C56.82 72.72 55 70.28 55 67.5V62.5L60 60Z" fill="#93C5FD"/>
-  <path d="M60 52L68 56L60 60L52 56L60 52Z" fill="#DBEAFE"/>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="32" height="32" rx="8" fill="#1E293B"/>
+  
+  <!-- 방패 -->
+  <path d="M16 6L24 10V14C24 19.04 21.04 23.15 16 25C10.96 23.15 8 19.04 8 14V10L16 6Z" 
+    stroke="#3B82F6" 
+    stroke-width="1.5" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+    fill="#1D4ED8"
+    fill-opacity="0.1"
+  />
+  
+  <!-- 별 -->
+  <path d="M16 11L17.5 14.5L21 15L18.5 17.5L19 21L16 19L13 21L13.5 17.5L11 15L14.5 14.5L16 11Z"
+    fill="#60A5FA"
+    stroke="#3B82F6"
+    stroke-width="1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
 </svg>
